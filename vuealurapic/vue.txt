@@ -1,0 +1,10 @@
+npm install -g vue-cli@2.7.0
+vue --version
+vue init webpack-simple alurapicvue
+npm install
+npm run dev
+npm install vue-resource@1.0.3 --save
+npm install vue-router@2.1.1 --save
+
+npm install vee-validate --save
+https://cursos.alura.com.br/forum/topico-melhor-removerem-esta-parte-do-curso-para-vee-validate-v2-beta-e-se-possivel-fazer-para-v3-131491

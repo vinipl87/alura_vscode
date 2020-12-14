@@ -1,0 +1,8 @@
+{
+  "name": "aluracar",
+  "app_id": "1ced4898",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

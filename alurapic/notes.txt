@@ -1,0 +1,35 @@
+https://cli.angular.io/
+npm install -g @angular/cli@6.0.7
+ng new alurapic
+cd alurapic
+ng serve --open
+
+--ERROR in node_modules/rxjs
+npm install rxjs@6.0.0 --save
+ng serve --open
+
+npm install bootstrap@4.1.1
+
+--soh roda com angular 8.x
+cd api-windows
+--extrair data.db.zip
+npm start
+
+ng generate component photos/photo-list
+ng generate module errors
+ng generate component errors/not-found --module app
+
+ng g c photos/photo-list/load-button
+npm install font-awesome@4.7.0
+
+ng g m home
+ng g c home/signin
+
+ng g s core/auth
+
+npm install jwt-decode@2.2.0
+
+ng build --prod
+
+npm install stacktrace-js
+npm install @types/stacktrace-js

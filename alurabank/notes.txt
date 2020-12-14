@@ -1,0 +1,53 @@
+TypeScript
+O compilador do TypeScript precisa da plataforma Node.js instalada para poder funcionar, pré-requisito fundamental para este curso. O segundo pré-requisito é o Visual Studio Code (VSCode). Como o TypeScript é uma linguagem criada pela Microsoft e o VSCode é mantido pela mesma empresa como projeto open source, este editor possui uma das melhores integrações com a linguagem TypeScript sem que o programador tenha que realizar dezenas de configurações ou instalar plugins.
+
+Vejamos a seguir como proceder para instalar os pré-requisitos.
+
+Versão do Node.js
+É necessário no mínimo o Node.js em sua versão 6.X ou versões superiores pares!. Não instale versões ímpares do Node.js, pois não são LTS!**
+
+Caso você já tenha o Node instalado
+Se você já tem o Node instalado em sua máquina, verifique se ele está pelo menos na versão 6.X através do comando node -v no seu terminal, pois precisamos de uma versão atualizada do mesmo para que não ocorra erros na sua máquina durante o projeto.
+
+Instalação Node.js no Linux (Ubuntu)
+No Ubuntu, através do terminal (permissão de administrador necessária) execute o comando abaixo:
+
+sudo apt-get install -y nodejs
+ATENÇÃO: em algumas distribuições Linux, pode haver um conflito de nomes quando o Node é instalado pelo apt-get. Neste caso específico, no lugar do binário ser node, ele passa a se chamar nodejs. Isso gera problemas, pois a instrução npm start não funcionará, pois ela procura o binário node e não nodejs. Para resolver no Ubuntu
+
+sudo ln -s /usr/bin/nodejs /usr/bin/node
+depois o comando npm start funcionará conforme esperado.
+
+É uma pena haver essa discrepância, mas fica aqui essa dica!
+
+Instalação Node.js no Windows
+Baixe o instalador clicando no grande botão install, diretamente da página do Node.js. Durante a instalação, você apenas clicará nos botões para continuar o assistente. Não troque a pasta padrão do Node.js durante a instalação, a não ser que você saiba exatamente o que está fazendo.
+
+Instalação Node.js no MAC
+O homebrew é a maneira mais recomendada para instalar o Node.js em sua máquina, através do comando:
+
+brew update
+brew install node
+Não usa homebrew? Sem problema, baixe o instalador clicando no grande botão install, diretamente da página do Node.js.
+
+Visual Studio Code (Gratuito)
+O Visual Studio Code é um editor gratuito e multiplataforma (Mac, Linux e Windows) que se integra muito bem com o TypeScript com zero esforço por parte do desenvolvedor. Você pode baixá-lo no endereço https://code.visualstudio.com/download.
+
+Se você utiliza IDE's como Eclipse ou NetBeans, sugiro abandonar essas IDE's pois você encontrará problemas desde acentuação até mensagens de erros "falso positivo". Caso você insista no uso delas, faça primeiro o curso usando o editor indicado e depois utilize sua IDE. Isso evitará que você poste no fórum dúvidas a respeito desses editores que não aconselho utilizar na parte de front-end.
+
+
+
+
+cd C:\Users\vinip\Dropbox\Documents\Projetos\alurabank
+npm init
+npm install typescript@2.3.2 --save-dev
+npm run compile
+npm start
+npm install @types/jquery --save-dev
+npm install lite-server@2.3.0 --save-dev
+npm install concurrently@3.4.0 --save-dev 
+
+
+
+pra rodar js 
+node local
