@@ -1,0 +1,18 @@
+git init
+git status
+git add .
+git commit -m "Msg"
+
+git config --local user.name "X Y"
+git config --local user.email "xy@gmail.com"
+
+git log
+git log --oneline
+git log -p 
+
+git init --bare          @C:/Users/xy/Downloads/gitserver/
+git remote add copialocal C:/Users/xy/Downloads/gitserver/
+
+git remote add origin https://github.com/xy/aluragit.git
+
+git remote -v
