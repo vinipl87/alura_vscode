@@ -1,0 +1,15 @@
+nvm use 10.16.3
+
+https://reactnative.dev/docs/environment-setup
+choco install -y nodejs.install openjdk8
+choco install -y openjdk8
+https://www.genymotion.com/
+
+npx react-native init instalura --version 0.60.4
+cd instalura
+npx react-native run-android
+npx react-native start
+
+https://reactnative.dev/docs/flatlist
+https://pt-br.reactjs.org/docs/hooks-intro.html
+https://pt-br.reactjs.org/docs/hooks-overview.html
