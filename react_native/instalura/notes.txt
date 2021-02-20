@@ -13,3 +13,10 @@ npx react-native start
 https://reactnative.dev/docs/flatlist
 https://pt-br.reactjs.org/docs/hooks-intro.html
 https://pt-br.reactjs.org/docs/hooks-overview.html
+
+192.168.0.220
+
+npm install @react-native-community/async-storage
+npm install react-navigation
+npm install react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view
+npm install react-navigation-stack

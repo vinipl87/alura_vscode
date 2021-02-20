@@ -1,5 +1,12 @@
+import { Platform } from "react-native";
+
 const lerFotos = async (callback) => {
-    const fotosHTTP = await fetch("http://192.168.0.220:3030/feed");
+    let url = "192.168.0.220";
+    if(Platform.OS == "ios"){
+        url = "localhost";
+    }
+    
+    const fotosHTTP = await fetch(`http://${url}:3030/feed`);
     const fotosJson = await fotosHTTP.json();
     callback(fotosJson);
 }
