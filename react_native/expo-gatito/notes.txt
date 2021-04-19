@@ -1,0 +1,4 @@
+https://docs.expo.io/
+npm install --g expo-cli
+expo init gatito
+npm install --save-dev reactotron-react-native
